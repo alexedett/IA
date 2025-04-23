@@ -1,0 +1,127 @@
+Estado Emocional,Día de la Semana,Hora del Día,Género Recomendado
+Feliz,Lunes,Mañana,Comedia
+Feliz,Lunes,Tarde,Musical
+Feliz,Lunes,Noche,Musical
+Feliz,Martes,Mañana,Animación
+Feliz,Martes,Tarde,Animación
+Feliz,Martes,Noche,Musical
+Feliz,Miércoles,Mañana,Comedia
+Feliz,Miércoles,Tarde,Musical
+Feliz,Miércoles,Noche,Comedia
+Feliz,Jueves,Mañana,Musical
+Feliz,Jueves,Tarde,Musical
+Feliz,Jueves,Noche,Musical
+Feliz,Viernes,Mañana,Musical
+Feliz,Viernes,Tarde,Musical
+Feliz,Viernes,Noche,Animación
+Feliz,Sábado,Mañana,Comedia
+Feliz,Sábado,Tarde,Comedia
+Feliz,Sábado,Noche,Musical
+Feliz,Domingo,Mañana,Musical
+Feliz,Domingo,Tarde,Animación
+Feliz,Domingo,Noche,Comedia
+Triste,Lunes,Mañana,Romance
+Triste,Lunes,Tarde,Documental
+Triste,Lunes,Noche,Documental
+Triste,Martes,Mañana,Romance
+Triste,Martes,Tarde,Romance
+Triste,Martes,Noche,Drama
+Triste,Miércoles,Mañana,Documental
+Triste,Miércoles,Tarde,Drama
+Triste,Miércoles,Noche,Documental
+Triste,Jueves,Mañana,Documental
+Triste,Jueves,Tarde,Romance
+Triste,Jueves,Noche,Documental
+Triste,Viernes,Mañana,Drama
+Triste,Viernes,Tarde,Drama
+Triste,Viernes,Noche,Documental
+Triste,Sábado,Mañana,Documental
+Triste,Sábado,Tarde,Romance
+Triste,Sábado,Noche,Drama
+Triste,Domingo,Mañana,Documental
+Triste,Domingo,Tarde,Romance
+Triste,Domingo,Noche,Romance
+Aburrido,Lunes,Mañana,Ciencia Ficción
+Aburrido,Lunes,Tarde,Ciencia Ficción
+Aburrido,Lunes,Noche,Fantasía
+Aburrido,Martes,Mañana,Aventura
+Aburrido,Martes,Tarde,Fantasía
+Aburrido,Martes,Noche,Fantasía
+Aburrido,Miércoles,Mañana,Fantasía
+Aburrido,Miércoles,Tarde,Fantasía
+Aburrido,Miércoles,Noche,Fantasía
+Aburrido,Jueves,Mañana,Fantasía
+Aburrido,Jueves,Tarde,Fantasía
+Aburrido,Jueves,Noche,Fantasía
+Aburrido,Viernes,Mañana,Fantasía
+Aburrido,Viernes,Tarde,Fantasía
+Aburrido,Viernes,Noche,Ciencia Ficción
+Aburrido,Sábado,Mañana,Ciencia Ficción
+Aburrido,Sábado,Tarde,Ciencia Ficción
+Aburrido,Sábado,Noche,Aventura
+Aburrido,Domingo,Mañana,Ciencia Ficción
+Aburrido,Domingo,Tarde,Ciencia Ficción
+Aburrido,Domingo,Noche,Fantasía
+Ansioso,Lunes,Mañana,Thriller Psicológico
+Ansioso,Lunes,Tarde,Thriller Psicológico
+Ansioso,Lunes,Noche,Suspenso
+Ansioso,Martes,Mañana,Suspenso
+Ansioso,Martes,Tarde,Thriller Psicológico
+Ansioso,Martes,Noche,Misterio
+Ansioso,Miércoles,Mañana,Suspenso
+Ansioso,Miércoles,Tarde,Thriller Psicológico
+Ansioso,Miércoles,Noche,Thriller Psicológico
+Ansioso,Jueves,Mañana,Suspenso
+Ansioso,Jueves,Tarde,Misterio
+Ansioso,Jueves,Noche,Thriller Psicológico
+Ansioso,Viernes,Mañana,Misterio
+Ansioso,Viernes,Tarde,Suspenso
+Ansioso,Viernes,Noche,Thriller Psicológico
+Ansioso,Sábado,Mañana,Misterio
+Ansioso,Sábado,Tarde,Misterio
+Ansioso,Sábado,Noche,Misterio
+Ansioso,Domingo,Mañana,Misterio
+Ansioso,Domingo,Tarde,Thriller Psicológico
+Ansioso,Domingo,Noche,Suspenso
+Enojado,Lunes,Mañana,Acción
+Enojado,Lunes,Tarde,Acción
+Enojado,Lunes,Noche,Deportes
+Enojado,Martes,Mañana,Deportes
+Enojado,Martes,Tarde,Deportes
+Enojado,Martes,Noche,Acción
+Enojado,Miércoles,Mañana,Crimen
+Enojado,Miércoles,Tarde,Acción
+Enojado,Miércoles,Noche,Deportes
+Enojado,Jueves,Mañana,Deportes
+Enojado,Jueves,Tarde,Deportes
+Enojado,Jueves,Noche,Acción
+Enojado,Viernes,Mañana,Deportes
+Enojado,Viernes,Tarde,Acción
+Enojado,Viernes,Noche,Crimen
+Enojado,Sábado,Mañana,Crimen
+Enojado,Sábado,Tarde,Crimen
+Enojado,Sábado,Noche,Acción
+Enojado,Domingo,Mañana,Deportes
+Enojado,Domingo,Tarde,Deportes
+Enojado,Domingo,Noche,Acción
+Relajado,Lunes,Mañana,Familiar
+Relajado,Lunes,Tarde,Romance
+Relajado,Lunes,Noche,Biografía
+Relajado,Martes,Mañana,Romance
+Relajado,Martes,Tarde,Romance
+Relajado,Martes,Noche,Familiar
+Relajado,Miércoles,Mañana,Biografía
+Relajado,Miércoles,Tarde,Romance
+Relajado,Miércoles,Noche,Biografía
+Relajado,Jueves,Mañana,Familiar
+Relajado,Jueves,Tarde,Biografía
+Relajado,Jueves,Noche,Familiar
+Relajado,Viernes,Mañana,Romance
+Relajado,Viernes,Tarde,Biografía
+Relajado,Viernes,Noche,Romance
+Relajado,Sábado,Mañana,Biografía
+Relajado,Sábado,Tarde,Romance
+Relajado,Sábado,Noche,Romance
+Relajado,Domingo,Mañana,Familiar
+Relajado,Domingo,Tarde,Biografía
+Relajado,Domingo,Noche,Familiar
