@@ -1,0 +1,56 @@
+class Juguete {
+  private String nombre;
+  private double precio;
+  private String categoria;
+  private int edad;
+  
+  public Juguete (String nombre, double precio,String categoria, int edad){
+   this.nombre = nombre;
+   this.precio = precio;
+   this.categoria = categoria;
+   this.edad = edad;
+  }
+  public void aplicar_descuento(double porcentaje){
+    this.precio -= this.precio * (porcentaje / 100);
+  }
+  public void cambiar_categoria(String nuevaCategoria){
+    this.categoria = nuevaCategoria;
+  }
+  public void mostrar () {
+    System.out.println("Juguete:" + nombre + "precio:" + precio + "categoría:" + categoria + "edad:" + edad + "+");
+  }
+  // get
+  public String getNombre() {
+    return this.nombre;
+  }
+  public double getPrecio() {
+    return this.precio;
+  }
+  public String getCategoria() {
+    return this.categoria;
+  }
+  public int getEdad(){
+    return this.edad;
+  }
+  //set
+  public void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
+  public void setPrecio(double precio) {
+    this.precio = precio;
+  }
+  public void setCategoria(String categoria) {
+    this.categoria = categoria;
+  }
+  public void setEdad(int edad){
+    this.edad = edad;
+  }
+}
+ public class Jugueteria{
+  
+  public static void main(String[] args){
+    Juguete juguete1 = new Juguete("Barbie", 40000, "entretenimiento", 5);
+    juguete1.mostrar();
+  }   
+  
+}
