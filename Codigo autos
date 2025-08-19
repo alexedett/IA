@@ -1,0 +1,78 @@
+enum Combustible {
+  CORRIENTE("Corriente"),
+  DIESEL("Diesel"), 
+  GAS("Gas"),
+  ELECTRICO ("Eléctrico");
+  
+  private final String texto;
+  
+  Combustible(String texto) { 
+    this.texto = texto;
+  }
+  public String getTexto(){
+    return texto;
+  }
+}
+enum Estado {
+  DISPONIBLE("Disponible"),
+  ALQUILADO("Alquilado"), 
+  MTM("En mantenimiento");
+  
+  
+  private final String texto;
+  
+  Estado(String texto) { 
+    this.texto = texto;
+  }
+  public String getTexto(){
+    return texto;
+  }
+}
+class Auto {
+  private String marca;
+  private String modelo;
+  private int year;
+  private Combustible combustible;
+  private Estado estado;
+  
+  public Auto(String marca, String modelo, int year, Combustible combustible, Estado estado) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.year = year;
+    this.combustible = combustible;
+    this.estado = estado;
+  
+  }
+  
+  public boolean reservar() {
+    if (estado == Estado.DISPONIBLE){
+     estado = Estado.ALQUILADO;
+     return true;
+    }
+    return false;    
+  } 
+    public boolean cancelar() {
+    if (estado == Estado.ALQUILADO){
+      estado = Estado.DISPONIBLE;
+      return true;
+    }
+    return false;
+  }
+    
+  public void mostrar() {
+    System.out.println("Marca: " +marca+ "Modelo: " +modelo+ "Año: " +year+ "Combustible: " +combustible.getTexto()+ "Estado: " +estado.getTexto());
+  }
+  
+  
+  
+}
+public class Alquiler {
+  public static void main(String[] args) {
+    Auto auto1 = new Auto("Chevrolet", "Spark", 2020, Combustible.DIESEL, Estado.DISPONIBLE);
+     //reservar
+     auto1.mostrar();
+     auto1.reservar();
+     
+     auto1.mostrar();
+  }
+}
