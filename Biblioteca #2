@@ -1,0 +1,83 @@
+class Libro {
+ private String titulo;
+ private String autor;
+ private String genero;
+ private int paginas;
+ private boolean disponible;
+ 
+ public Libro(String titulo, String genero, String autor, int paginas, boolean disponible) {
+   this.titulo = titulo;
+   this.autor = autor;
+   this.genero = genero;
+   this.paginas = paginas;
+   this.disponible = true;
+    
+ }
+ public void prestar() {
+   if (disponible) {
+     disponible = false;
+     System.out.println("Se prestó el libro: " + titulo);
+   } else {
+     System.out.println("El libro" + titulo + "no esta disponible");
+   }
+ }
+ public void devolver(){
+   disponible = true;
+   System.out.println("Se devolvió el libro: " + titulo);
+ }
+ public void mostrar(){
+   String estado = disponible ? "Disponible" : "prestado";
+   System.out.println("Título: " + titulo + "Autor: " + autor + "Género: " + genero + "Número de páginas" + paginas + "Estado: " + estado); 
+   
+ }
+ // get
+ public String getGenero() {
+   return genero; 
+ }
+ public String getTitulo() {
+   return titulo;
+ }
+ public String getAutor() {
+   return autor;
+ }
+ public int getPaginas() {
+   return paginas; 
+ }
+ public String getEstado() {
+   String estado = disponible ? "Disponible" : "Prestado";
+   return estado;
+ }
+ 
+ 
+   
+}
+class Usuario {
+  private String nombre;
+  private String correo;
+  
+  public Usuario (String nombre, String correo) {
+    this.nombre = nombre;
+    this.correo = correo;
+  }
+  public void mostrar () {
+    System.out.println("Usuario: " + nombre + "Correo: " + correo);
+  }
+}
+  
+public class Biblioteca {
+  public static void main(String[] args) {
+    Libro libro1 = new Libro("El extranjero", "Albert Camusito", "Filosofía", 100, true);
+    Libro libro2 = new Libro("1984", "Georgesito", "Ciencia ficción", 373, true);
+    
+    libro1.mostrar();
+    libro2.mostrar();
+    
+    Usuario u1 = new Usuario("Lynnn", "lynnalejandra@gmail");
+    
+    libro1.prestar();
+    libro1.mostrar();
+    
+    libro1.devolver();
+    libro1.mostrar();
+  }
+}
